@@ -47,7 +47,7 @@ console.log("07 - Fabio è presente nell'array?", isFabioPresent);
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 const lewisIndex = teachers.indexOf("Lewis");
-console.log("08 - Index di Lewis", lewisIndex);
+console.log("08 - Index di Lewis:", lewisIndex);
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
@@ -56,4 +56,5 @@ console.log("09 - Stringa degli insegnanti:", teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = teachers.length === 0;
+console.log("10 - L'array degli insegnanti è vuoto?:", isTeachersEmpty);
