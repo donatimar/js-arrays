@@ -13,7 +13,7 @@ console.log("02 - Insegnante che sostituisce il quinto nell'elenco", teachers);
 const lastTeacher = teachers.pop();
 console.log("03 - Ultimo insegnante:", lastTeacher);
 console.log(
-  "Insegnanti rimasti dopo l'eliminazione dell'ultimo insegnante",
+  "03b - Insegnanti rimasti dopo l'eliminazione dell'ultimo insegnante",
   teachers
 );
 
@@ -21,7 +21,7 @@ console.log(
 const firstTeacher = teachers.shift();
 console.log("04 - Primo insegnante:", firstTeacher);
 console.log(
-  "Insegnanti rimasti dopo l'eliminazione del primo insegnante",
+  "04b - Insegnanti rimasti dopo l'eliminazione del primo insegnante",
   teachers
 );
 
