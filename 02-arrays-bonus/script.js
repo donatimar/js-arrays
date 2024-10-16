@@ -19,3 +19,10 @@ for (let i = 0; i < teachers.length; i++) {
 console.log("02 - Nomi contenenti almeno 5 lettere:", longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
+let newListTeachers = [];
+for (let i = 0; i < teachers.length; i++) {
+  if (teachers[i] !== "Ed") {
+    newListTeachers.push(teachers[i]);
+  }
+}
+console.log("03 - Lista degli insegnanti senza Ed:", newListTeachers);
